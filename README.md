@@ -101,6 +101,9 @@ Each level give you 1 skill point, wich can unlock something in the skill tree.
 
 # CREDITS :credit_card:
 [Romain Minguet](https://github.com/Romain-1)
+
 [Diego Rojas](https://github.com/rojasdiegopro)
+
 [Allan Debeve](https://github.com/Gfaim)
+
 [Jérôme Collet](https://github.com/JeromeCGithub)
