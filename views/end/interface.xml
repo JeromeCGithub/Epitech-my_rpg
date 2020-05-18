@@ -1,0 +1,26 @@
+<pane
+    scale=          "2.5:2.5"
+    position=       "C, C"
+    default-texture="background">
+<button
+    scale=          "1.2:1.2"
+    text=           "Back to menu"
+    default-texture="button"
+    focus-texture=  "button-focus"
+    onclick=        "back-to-menu"
+    position=       "M - S - 20px, M - S - 20px">
+<button
+    scale=          "1.2:1.2"
+    text=           "Continue to play"
+    default-texture="button"
+    focus-texture=  "button-focus"
+    onclick=        "menu-play-game"
+    position=       "L + 20px, M - S - 20px">
+<pane
+    scale=          "2.5:2.5"
+    position=       "C, C - S"
+    default-texture="game_end">
+<pane
+    scale=          "1.5:1.5"
+    position=       "C, C + S"
+    default-texture="made_by">

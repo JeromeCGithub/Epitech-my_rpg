@@ -1,0 +1,25 @@
+<pane
+    scale=          "2.5:2.5"
+    position=       "C, C"
+    default-texture="background">
+<pane
+    scale=          "7:5"
+    position=       "C, C"
+    default-texture="parchemin">
+<pane
+    default-texture="wasted"
+    position=       "C, C - 100px">
+<button
+    scale=          "1.2:1.2"
+    text=           "Back to Menu"
+    default-texture="button"
+    focus-texture=  "button-focus"
+    onclick=        "back-to-menu"
+    position=       "C + 15%, C + 100px">
+<button
+    scale=          "1.2:1.2"
+    default-texture="button"
+    text=           "Continue"
+    focus-texture=  "button-focus"
+    onclick=        "menu-play-game"
+    position=       "C - 15%, C + 100px">

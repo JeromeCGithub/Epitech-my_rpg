@@ -1,0 +1,153 @@
+<pane
+    scale=          "2.5:10"
+    position=       "M - S, 0px"
+    default-texture="overlay">
+<button
+    scale=          "1.2:1.2"
+    text=           "Back to menu"
+    default-texture="button"
+    focus-texture=  "button-focus"
+    onclick=        "back-to-menu"
+    position=       "M - S - 20px, M - S - 20px">
+<button
+    scale=          "1.2:1.2"
+    text=           "Smoothen"
+    default-texture="button"
+    focus-texture=  "button-focus"
+    onclick=        "reset-borders"
+    position=       "M - S - 20px, 10px">
+<button
+    scale=          "1.2:1.2"
+    text=           "Randomize"
+    default-texture="button"
+    focus-texture=  "button-focus"
+    onclick=        "map-randomize"
+    position=       "M - S - 20px, M - S - S - 20px">
+<button
+    scale=          "1.2:1.2"
+    text=           "Save"
+    default-texture="button"
+    focus-texture=  "button-focus"
+    onclick=        "map-save"
+    position=       "M - S - 20px, S + 20px">
+<button
+    id=             "52"
+    scale=          "1.3:1.3"
+    default-texture="tile-road-1"
+    focus-texture=  "tile-hover-road-1"
+    onclick=        "change-brush"
+    position=       "M - S - S - S - S - 20px, S + S + 70px">
+<button
+    id=             "53"
+    scale=          "1.3:1.3"
+    default-texture="tile-road-2"
+    focus-texture=  "tile-hover-road-2"
+    onclick=        "change-brush"
+    position=       "M - S - S - S - 10px, S + S + 70px">
+<button
+    id=             "54"
+    scale=          "1.3:1.3"
+    default-texture="tile-road-3"
+    focus-texture=  "tile-hover-road-3"
+    onclick=        "change-brush"
+    position=       "M - S - S, S + S + 70px">
+
+<button
+    id=             "55"
+    scale=          "1.3:1.3"
+    default-texture="tile-road-4"
+    focus-texture=  "tile-hover-road-4"
+    onclick=        "change-brush"
+    position=       "M - S - S - S - S - 20px, S + S + S + 80px">
+<button
+    id=             "56"
+    scale=          "1.3:1.3"
+    default-texture="tile-road-5"
+    focus-texture=  "tile-hover-road-5"
+    onclick=        "change-brush"
+    position=       "M - S - S - S - 10px, S + S + S + 80px">
+<button
+    id=             "57"
+    scale=          "1.3:1.3"
+    default-texture="tile-road-6"
+    focus-texture=  "tile-hover-road-6"
+    onclick=        "change-brush"
+    position=       "M - S - S, S + S + S + 80px">
+
+<button
+    id=             "58"
+    scale=          "1.3:1.3"
+    default-texture="tile-road-7"
+    focus-texture=  "tile-hover-road-7"
+    onclick=        "change-brush"
+    position=       "M - S - S - S - S - 20px, S + S + S + S + 90px">
+<button
+    id=             "59"
+    scale=          "1.3:1.3"
+    default-texture="tile-road-8"
+    focus-texture=  "tile-hover-road-8"
+    onclick=        "change-brush"
+    position=       "M - S - S - S - 10px, S + S + S + S + 90px">
+<button
+    id=             "60"
+    scale=          "1.3:1.3"
+    default-texture="tile-road-9"
+    focus-texture=  "tile-hover-road-9"
+    onclick=        "change-brush"
+    position=       "M - S - S, S + S + S + S + 90px">
+<button
+    id=             "61"
+    scale=          "1.3:1.3"
+    default-texture="tile-road-10"
+    focus-texture=  "tile-hover-road-10"
+    onclick=        "change-brush"
+    position=       "M - S - S - S - S - 20px, S + S + S + S + S + 100px">
+<button
+    id=             "62"
+    scale=          "1.3:1.3"
+    default-texture="tile-road-11"
+    focus-texture=  "tile-hover-road-11"
+    onclick=        "change-brush"
+    position=       "M - S - S - S - 10px, S + S + S + S + S + 100px">
+<button
+    id=             "63"
+    scale=          "1.3:1.3"
+    default-texture="tile-road-12"
+    focus-texture=  "tile-hover-road-12"
+    onclick=        "change-brush"
+    position=       "M - S - S - S - S - 20px, S + S + S + S + S + S + 110px">
+<button
+    id=             "64"
+    scale=          "1.3:1.3"
+    default-texture="tile-road-13"
+    focus-texture=  "tile-hover-road-13"
+    onclick=        "change-brush"
+    position=       "M - S - S - S - 10px, S + S + S + S + S + S + 110px">
+<button
+    id=             "48"
+    scale=          "1.3:1.3"
+    default-texture="tile-brick-1"
+    focus-texture=  "tile-hover-brick-1"
+    onclick=        "change-brush"
+    position=       "M - S - S, S + S + S + S + S + 100px">
+<button
+    id=             "49"
+    scale=          "1.3:1.3"
+    default-texture="tile-brick-2"
+    focus-texture=  "tile-hover-brick-2"
+    onclick=        "change-brush"
+    position=       "M - S - S, S + S + S + S + S + S + 110px">
+<button
+    id=             "46"
+    scale=          "1.3:1.3"
+    default-texture="tile-grass"
+    focus-texture=  "tile-hover-grass"
+    onclick=        "change-brush"
+    position=       "M - S - S - S - 10px, S + S + S + S + S + S + S + 120px">
+<button
+    id=             "51"
+    scale=          "1.3:1.3"
+    default-texture="tile-house"
+    focus-texture=  "tile-hover-house"
+    onclick=        "change-brush"
+    position=       "M - S - S - S - S - 20px, S + S + S + S + S + S + S + 120px">

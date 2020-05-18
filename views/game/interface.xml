@@ -1,0 +1,65 @@
+<pane
+    scale=          "2.5:2.5"
+    position=       "C, C"
+    states=         "1 3"
+    default-texture="background">
+<pane
+    default-texture="overlay"
+    states=         "1 3"
+    scale=          "100:100"
+    position=       "C, C">
+<button
+    scale=          "1.2:1.2"
+    default-texture="button"
+    focus-texture=  "button-focus"
+    text=           "Back to menu"
+    position=       "M - S - 30px, M - S - 30px"
+    onclick=        "back-to-menu"
+    id=             "1">
+<button
+    scale=          "1.2:1.2"
+    default-texture="button"
+    focus-texture=  "button-focus"
+    text=           "Resume"
+    position=       "C, C - 10%"
+    onclick=        "resume"
+    states=         "1"
+    id=             "20">
+<button
+    scale=          "1.2:1.2"
+    default-texture="button"
+    focus-texture=  "button-focus"
+    text=           "Quests"
+    position=       "C, C"
+    onclick=        "view-quests"
+    states=         "1"
+    id=             "21">
+<button
+    scale=          "1.2:1.2"
+    default-texture="button"
+    focus-texture=  "button-focus"
+    text=           "Back to menu"
+    position=       "C, C + 10%"
+    onclick=        "back-to-menu"
+    states=         "1"
+    id=             "22">
+<button
+    scale=          "0.01:0.01"
+    default-texture="overlay"
+    focus-texture=  "overlay"
+    text=           "Quests:"
+    position=       "C, C"
+    states=         "3"
+    id=             "23">
+<pane
+    default-texture="ui_inventory_background"
+    render-after=   "false"
+    states=         "10"
+    position=       "M - S - 10px, 10px"
+    id=             "500">
+<pane
+    default-texture="ui_skill_tree_background"
+    render-after=   "false"
+    states=         "11"
+    position=       "10px, S - 10px"
+    id=             "501">

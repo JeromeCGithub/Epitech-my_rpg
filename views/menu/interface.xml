@@ -1,0 +1,56 @@
+<pane
+    scale=          "2.5:2.5"
+    position=       "C, C"
+    default-texture="background">
+<pane
+    scale=          "2:2"
+    position=       "C, C - 20%"
+    default-texture="logo">
+<button
+    scale=          "2.6:1.2"
+    default-texture="button"
+    focus-texture=  "button-focus"
+    text=           "Play Game"
+    position=       "C, C"
+    onclick=        "menu-play-game"
+    id=             "1">
+<button
+    scale=          "1.2:1.2"
+    default-texture="button"
+    focus-texture=  "button-focus"
+    text=           "How to play"
+    position=       "C - 218px, C + 10%"
+    onclick=        "menu-htp"
+    id=             "2">
+<button
+    scale=          "1.2:1.2"
+    default-texture="button"
+    focus-texture=  "button-focus"
+    text=           "Bestiary"
+    position=       "C + 218px, C + 10%"
+    onclick=        "menu-bestiary"
+    id=             "7">
+<button
+    scale=          "1.2:1.2"
+    default-texture="button"
+    focus-texture=  "button-focus"
+    text=           "Map Editor"
+    position=       "C - 218px, C + 20%"
+    onclick=        "menu-map"
+    id=             "5">
+<button
+    scale=          "1.2:1.2"
+    default-texture="button"
+    focus-texture=  "button-focus"
+    text=           "Settings"
+    position=       "C + 218px, C + 20%"
+    onclick=        "menu-settings"
+    id=             "3">
+<button
+    scale=          "2.6:1.2"
+    default-texture="button"
+    focus-texture=  "button-focus"
+    text=           "Quit Game"
+    position=       "C, C + 30%"
+    onclick=        "quit-game"
+    id=             "4">

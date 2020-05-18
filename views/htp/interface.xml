@@ -1,0 +1,34 @@
+<pane
+    scale=          "2.5:2.5"
+    position=       "C, C"
+    off-states-render="true"
+    default-texture="background">
+<pane
+    scale=          "7:5"
+    position=       "C, C"
+    default-texture="parchemin">
+<pane
+    scale=          "1:1"
+    position=       "C, 15%"
+    default-texture="logo">
+<button
+    scale=          "0.1:0.1"
+    text=           "Terrio is 2d a Role Play Game in which you impersonate Tom,
+a Human in constant fight for his survival in a world filled
+with monsters.
+Wander around the map using the Z Q S D directional keys,
+Collect items and display them into your inventory
+with the I keybind.
+Gather experience and skills using the skill tree (C) and
+battle enemies using the Space Bar.
+Use the map Editor to create your own maps and save your
+progression by creating a save/ directory at your root."
+    id=             "1"
+    position=       "C, C">
+<button
+    scale=          "1.2:1.2"
+    text=           "Back to menu"
+    default-texture="button"
+    focus-texture=  "button-focus"
+    onclick=        "back-to-menu"
+    position=       "M - S - 20px, M - S - 20px">

@@ -1,0 +1,29 @@
+<pane
+    scale=          "2.5:2.5"
+    position=       "C, C"
+    default-texture="background">
+<checkbox
+    scale=          "1.2:1.2"
+    text-on=        "Sounds: On"
+    text-off=       "Sounds: Off"
+    default-texture="button"
+    focus-texture=  "button-focus"
+    onload=         "settings-sound-load"
+    onclick=        "settings-sound"
+    position=       "C - 20%, C">
+<checkbox
+    scale=          "1.2:1.2"
+    text-on=        "Music: On"
+    text-off=       "Music: Off"
+    default-texture="button"
+    focus-texture=  "button-focus"
+    onload=         "settings-music-load"
+    onclick=        "settings-music"
+    position=       "C + 20%, C">
+<button
+    scale=          "1.2:1.2"
+    text=           "Back to menu"
+    default-texture="button"
+    focus-texture=  "button-focus"
+    onclick=        "back-to-menu"
+    position=       "M - S - 20px, M - S - 20px">

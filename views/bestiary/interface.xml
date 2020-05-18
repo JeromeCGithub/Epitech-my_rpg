@@ -1,0 +1,72 @@
+<pane
+    scale=          "2.5:2.5"
+    position=       "C, C"
+    off-states-render="true"
+    default-texture="background">
+<pane
+    scale=          "2.5:10"
+    off-states-render="true"
+    position=       "M - S, 0px"
+    default-texture="overlay">
+<pane
+    scale=          "5:5"
+    position=       "100px, C"
+    states=         "0 1 2"
+    default-texture="parchemin">
+<button
+    scale=          "1.2:1.2"
+    text=           "Next"
+    default-texture="button"
+    states=         "0 1 2"
+    focus-texture=  "button-focus"
+    onclick=        "bestiary-next"
+    position=       "M - S - 20px, 20px">
+<pane
+    default-texture="slime-display"
+    scale=          "3:3"
+    states=         "0"
+    position=       "C - 12%, C - 20%">
+<pane
+    default-texture="zombie-display"
+    scale=          "3:3"
+    states=         "1"
+    position=       "C - 12%, C - 20%">
+<pane
+    default-texture="skeleton-display"
+    states=         "2"
+    scale=          "3:3"
+    position=       "C - 12%, C - 20%">
+<button
+    scale=          "0.1:0.1"
+    text=           "This slime wanders the map aimlessly.
+It has a lot of health but doesn't do much damage.
+Also it's not that fast.
+Yeah..."
+    states=         "0"
+    onclick=        "bestiary-next"
+    id=             "20"
+    position=       "700px, C">
+<button
+    scale=          "0.1:0.1"
+    text=           "Zombies are fast and deal serious damage.
+They die in a few hits but don't drop much food."
+    states=         "1"
+    onclick=        "bestiary-next"
+    id=             "21"
+    position=       "700px, C">
+<button
+    scale=          "0.1:0.1"
+    text=           "Medium health, medium drops, medium damage.
+Medium difficulty for medium fun."
+    states=         "2"
+    onclick=        "bestiary-next"
+    id=             "22"
+    position=       "700px, C">
+<button
+    scale=          "1.2:1.2"
+    text=           "Back to menu"
+    default-texture="button"
+    states=         "0 1 2"
+    focus-texture=  "button-focus"
+    onclick=        "back-to-menu"
+    position=       "M - S - 20px, M - S - 20px">

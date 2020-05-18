@@ -1,0 +1,7 @@
+<button
+    scale=          "1.2:1.2"
+    text=           "Skip"
+    default-texture="button"
+    focus-texture=  "button-focus"
+    onclick=        "back-to-menu"
+    position=       "M - S - 20px, M - S - 20px">
